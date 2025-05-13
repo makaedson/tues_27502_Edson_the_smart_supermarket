@@ -140,9 +140,14 @@ A separate `HOLIDAY` table works with the `prevent_dml_on_holidays` trigger to s
 * Phase I: Problem Definition ✔️
 * Phase II: Process Modeling with Flow Diagrams ✔️
 * Phase III: Logical Design with ERD ✔️
+![ERD 1](https://github.com/user-attachments/assets/3d3f9926-1f95-4b13-ae0a-39f3d090eb54)
 * Phase IV: Physical Database Creation ✔️
 * Phase V: Data Population and Testing ✔️
+![TESTING FUNCTIONS](https://github.com/user-attachments/assets/b289828e-d31c-459c-b463-3bb4309d344c)
+
 * Phase VI: Advanced PL/SQL Implementation ✔️
+![insert data into stock table](https://github.com/user-attachments/assets/37741949-aac2-4787-9af5-181f31da7eb8)
+
 * Phase VII: Auditing and Trigger Management ✔️
 * Phase VIII: Final Documentation & GitHub Deployment ✔️
 
