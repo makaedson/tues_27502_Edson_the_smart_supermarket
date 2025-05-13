@@ -1,4 +1,3 @@
--- PROCEDURE TO ADD INVOICE WITH DETAILS
 CREATE OR REPLACE PROCEDURE add_invoice (
     p_customer_id IN NUMBER,
     p_employee_id IN NUMBER,
