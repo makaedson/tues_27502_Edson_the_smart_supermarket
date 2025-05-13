@@ -1,4 +1,4 @@
--- PACKAGE SPEC
+-- Specification
 CREATE OR REPLACE PACKAGE supermarket_pkg AS
     PROCEDURE add_invoice_p (
         p_customer_id IN NUMBER,
@@ -6,12 +6,12 @@ CREATE OR REPLACE PACKAGE supermarket_pkg AS
         p_product_id IN NUMBER,
         p_quantity IN NUMBER
     );
-    
+
     FUNCTION calculate_invoice_total(p_invoice_id IN NUMBER) RETURN NUMBER;
 END;
 /
 
--- PACKAGE BODY
+-- Body
 CREATE OR REPLACE PACKAGE BODY supermarket_pkg AS
     PROCEDURE add_invoice_p (
         p_customer_id IN NUMBER,
