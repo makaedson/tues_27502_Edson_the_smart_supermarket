@@ -1,4 +1,4 @@
--- CURSOR TO DISPLAY LOW STOCK PRODUCTS
+SET SERVEROUTPUT ON
 DECLARE
     CURSOR low_stock_cursor IS
         SELECT p.name, s.quantity
